@@ -1,7 +1,7 @@
 //Name: Aaron Brunette
 //Assignment 3
 //CS 433
-//Last Updated: 2017/03/14
+//Last updated: 2017/03/14
 
 //Current Issues: Not a great approximation of pi. 100,000,000 points gives roughly 3.09.
 //Possible problems are the generation of the random double. Changed the original instruction
