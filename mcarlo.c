@@ -1,6 +1,17 @@
 //Name: Aaron Brunette
 //Assignment 3
 //CS 433
+//Last Updated: 2017/03/14
+
+//Current Issues: Not a great approximation of pi. 100,000,000 points gives roughly 3.09.
+//Possible problems are the generation of the random double. Changed the original instruction
+//from random(), which is not C standard, to rand(). rand() is seeded by time.h, although
+//it did not seem to increase the accuracy of the pi result. There is also a possible issue in
+//creating and joining the threads. Each thread does userInput number of dots, this results in
+//userInput * tCount number of final dots (i.e. userInput = 100, tCount = 4, total points = 400)
+//I am not sure if this was the original intent of the assignment, but using that results in skewed
+//approximations of pi (~15 using tCount of 4), so I quick fixed that by dividing by tCount. This
+//lowers the accuracy of the pi calculation.
 
 #include <stdio.h>
 #include <unistd.h>
