@@ -17,14 +17,14 @@
 //approximations of pi (~15 using tCount of 4), so I quick fixed that by dividing by tCount. This
 //lowers the accuracy of the pi calculation.
 
-#include <stdio.h>
-#include <unistd.h>
-#include <errno.h>
-#include <stdlib.h>
-#include <fcntl.h>
-#include <pthread.h>
-#include <math.h>
-#include <time.h>
+#include <stdio.h>      //C standard I/O library
+#include <unistd.h>     //POSIX OS API
+#include <errno.h>      //C error codes
+#include <stdlib.h>     //C general library
+#include <fcntl.h>      //file control library
+#include <time.h>       //time/clock library
+#include <pthread.h>    //pthread library
+#include <math.h>	//C Math library
 
 //Global variable
 double hit_count = 0;
