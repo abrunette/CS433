@@ -1,7 +1,11 @@
-//Name: Aaron Brunette
-//Assignment 3
-//CS 433
+/*****************mcarlo.c**************/
+//Author: Aaron Brunette
+//Github: abrunette
 //Last updated: 2017/03/14
+//Compiled with gcc
+//Written on Vim
+//Purpose: To estimate the value of pi using a monte carlo simulation.
+/***************************************/
 
 //Current Issues: Not a great approximation of pi. 100,000,000 points gives roughly 3.09.
 //Possible problems are the generation of the random double. Changed the original instruction
