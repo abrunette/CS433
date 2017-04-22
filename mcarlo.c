@@ -38,7 +38,8 @@ double random_double()
 //Purpose: In a new thread, generate a number of random points.
 // If the points fall inside the circle, increments the global
 // variable. returns nothing;
-
+//Parameters: Takes the first argument from command line and 
+//converts it to a number to generate simulations.
 //Algorithm: Use a for loop to generate a specified number of
 // random points within a 1x1 box. Creates a random x and y
 // coordinate. Increments the global variable if the product
@@ -75,6 +76,9 @@ void *monteCarlo(void* argv)
 // number of random coordinates in order to calulate the
 // approximate value of pi.
 //User information: ./mcarlo <simulation count>
+//Input: Takes one argument from command line to determine how
+//many simulations will be run.
+//Output: Outputs an estimation of pi based on simulations.
 int main(int argc, char *argv[]) 
 {
 	int tCount = 5;		//number of threads to be created
