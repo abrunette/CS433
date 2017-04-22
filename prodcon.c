@@ -1,15 +1,25 @@
-//Name: Aaron Brunette
-//Assignment 3
-//CS 433
+/*****************prodcon.c**************/
+//Author: Aaron Brunette
+//Github: abrunette
+//Last updated: 2017/03/25
+//Compiled with gcc
+//Written on vim
+//Purpose: To implement a thread synchronization system.
+/***************************************/
 
-#include <stdio.h>
-#include <unistd.h>
-#include <errno.h>
-#include <stdlib.h>
-#include <fcntl.h>
-#include <time.h>
-#include <pthread.h>
-#include <semaphore.h>
+//Current Issues: This will not compile. I did not get this file
+//to a working state. I hope to complete it sometime in the future
+//to complete my knowledge on the topic of mutex's and semaphores,
+//as well as checksum.
+
+#include <stdio.h>      //C standard I/O library
+#include <unistd.h>     //POSIX OS API
+#include <errno.h>      //C error codes
+#include <stdlib.h>     //C general library
+#include <fcntl.h>      //file control library
+#include <time.h>       //time/clock library
+#include <pthread.h>    //pthread library
+#include <semaphore.h> //semaphore library
 
 /*typedef unsigned char byte;
 typedef unsigned short int word16;
