@@ -3,7 +3,7 @@
 //Github: abrunette
 //Last updated: 2017/03/25
 //Compiled with gcc
-//Written on vim
+//Written on Vim
 //Purpose: To implement a thread synchronization system.
 /***************************************/
 
