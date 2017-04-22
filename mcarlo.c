@@ -74,6 +74,7 @@ void *monteCarlo(void* argv)
 //Purpose: To create a new thread that generates a specified
 // number of random coordinates in order to calulate the
 // approximate value of pi.
+//User information: ./mcarlo <simulation count>
 int main(int argc, char *argv[]) 
 {
 	int tCount = 5;		//number of threads to be created
