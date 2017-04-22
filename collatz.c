@@ -1,17 +1,22 @@
-//Name: Aaron Brunette
-//Assignment 2
-//CS 433
+/*****************filename**************/
+//Author: Aaron Brunette
+//Github: abrunette
 //Last updated: 2017/02/08
+//Compiled with gcc
+//Written on Vim
+//Purpose: To implement the collatz conjecture using
+//the fork() function.
+/***************************************/
 
-#include <stdio.h>
-#include <unistd.h>
-#include <errno.h>
-#include <fcntl.h>
+#include <stdio.h>      //C standard I/O library
+#include <unistd.h>     //POSIX OS API
+#include <errno.h>      //C error codes
+#include <fcntl.h>      //file control library
 
 //Purpose: To implement the fork function in order to create a child
 // process that will run the Collatz conjecture for any value given
 // as an argument in the command line.
-
+//User information: ./collatz <positive integer>
 //Algorithm: Uses the fork() function to create a child process which
 // runs a different operation on the seed value depending on whether
 // it is odd or even. When the seed value reaches 1 the operations
