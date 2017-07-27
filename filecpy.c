@@ -1,4 +1,4 @@
-/*****************filename**************/
+/*****************filecpy.c**************/
 //Author: Aaron Brunette
 //Github: abrunette
 //Last updated: 2017/02/22
